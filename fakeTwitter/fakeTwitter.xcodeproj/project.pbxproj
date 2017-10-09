@@ -12,20 +12,8 @@
 		6FE2FEC71F872C8B00FCC39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE2FEC61F872C8B00FCC39E /* Assets.xcassets */; };
 		6FE2FECA1F872C8B00FCC39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE2FEC81F872C8B00FCC39E /* LaunchScreen.storyboard */; };
 		6FE2FED21F872D5D00FCC39E /* TwitterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2FED11F872D5D00FCC39E /* TwitterTableViewController.swift */; };
+		6FE2FF181F87DCD600FCC39E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2FF171F87DCD600FCC39E /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		6FE2FEDF1F87A91900FCC39E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6FE2FEBC1F872C8B00FCC39E /* fakeTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakeTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +23,7 @@
 		6FE2FEC91F872C8B00FCC39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FE2FECB1F872C8B00FCC39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FE2FED11F872D5D00FCC39E /* TwitterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTableViewController.swift; sourceTree = "<group>"; };
+		6FE2FF171F87DCD600FCC39E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +56,7 @@
 		6FE2FEBE1F872C8B00FCC39E /* fakeTwitter */ = {
 			isa = PBXGroup;
 			children = (
+				6FE2FF171F87DCD600FCC39E /* NewsTableViewCell.swift */,
 				6FE2FEBF1F872C8B00FCC39E /* AppDelegate.swift */,
 				6FE2FEC31F872C8B00FCC39E /* Main.storyboard */,
 				6FE2FED11F872D5D00FCC39E /* TwitterTableViewController.swift */,
@@ -87,7 +77,6 @@
 				6FE2FEB81F872C8B00FCC39E /* Sources */,
 				6FE2FEB91F872C8B00FCC39E /* Frameworks */,
 				6FE2FEBA1F872C8B00FCC39E /* Resources */,
-				6FE2FEDF1F87A91900FCC39E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +141,7 @@
 			files = (
 				6FE2FED21F872D5D00FCC39E /* TwitterTableViewController.swift in Sources */,
 				6FE2FEC01F872C8B00FCC39E /* AppDelegate.swift in Sources */,
+				6FE2FF181F87DCD600FCC39E /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
